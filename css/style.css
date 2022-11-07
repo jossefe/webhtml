@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    background-color: azure;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(241, 217, 217);
+}
+header {
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+footer {
+    background-color: rgb(168, 14, 14);
+    color: rgb(216, 213, 247);
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 20px;
+}
+ul.fuente{
+    font-family:Copperplate Gothic ;
+}
+
+
+nav {
+    width: 20%;
+    float: left;
+}
+
+#content {
+    width: 78%;
+    float: right;
+    padding: 0 1%;
+}
+
+#home {
+    text-align: center;
+    padding-top: 40px;
+}
+.cb {
+    clear: both;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+nav ul li {
+   text-align: center;
+   color: rgb(228, 38, 64);
+   font-weight: bold;
+   padding: 18px 0;
+   border-radius: 20px;
+   border: solid 2px rgb(233, 7, 19);
+}
+nav ul li:hover {
+    color:  rgb(216, 213, 247);
+    background-color: rgb(177, 12, 12);
+}
+.txt-center {
+    text-align: center;
+}
+.tag {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+ul.ldc {
+    list-style: square;
+}
+ul.ldc li ul li{
+    list-style: disc;
+}
+ul.ldc li ul li ul li{
+    list-style: circle;
+}
+ol.loc{
+    list-style: upper-alpha;
+}
+ol.loc ol li{
+    list-style: upper-roman;
+}
+ol.loc ol li ol li {
+    list-style: decimal;
+}
+ol.loci{
+    list-style: decimal;
+}
+ol.loci ol li{
+    list-style: url(../img/heart.png);
+}
+ol.loci ol li ol li{
+    list-style: upper-alpha;
+}
+dt{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+table.te th {
+    background-color:rgb(241, 232, 232);
+    color:rgb(230, 36, 36);
+    font-size: 28px;
+}
+table.te td{
+    background-color:rgb(230, 31, 31);
+    color: rgb(247, 224, 224);
+}
+table.centered td {
+    text-align: center;
+}
+table.striped tr:nth-child(odd) {
+    background-color: rgb(198, 255, 236);
+}
+table.striped tr:nth-child(even) {
+    background-color: rgb(253, 207, 239);
+}
+table.horario{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #f0f0f0;
+}
+table.horario th{
+color: #008081;
+}
+.bdd {
+    background-color: rgb(252, 38, 38);
+
+}
+.sisi{
+    background-color: rgba(255, 68, 0, 0.774);
+}
+.lmsg{
+    background-color: rgb(172, 115, 172);
+}
+.ende{
+    background-color: rgb(4, 65, 4);
+}
+.fol{
+    background-color: rgb(89, 248, 89);
+}
+.prog{
+    background-color: rgb(111, 178, 218);
+}
+.ing{
+    background-color: rgb(59, 129, 59);
+}
+.registro{
+    width: 40%;
+}
+.us{
+    width: 99%;
+}
+.w{
+    width: 49%;
+}
+fieldset{
+    border: 5px solid rgb(241, 146, 146);
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    
+}
+audio{
+    display: block;
+    margin: 0 auto;
+}
